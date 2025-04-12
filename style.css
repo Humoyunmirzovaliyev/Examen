@@ -1,0 +1,121 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.rowheader {
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgb(114, 113, 113) 0px 2px 1px;
+
+}
+.logos {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 60px;
+}
+ ul li {
+    list-style: none;
+ }
+ ul a {
+    text-decoration: none;
+    color: black;
+ }
+ ul {
+    display: flex;
+    gap: 10px;
+ }
+ .button {
+     display: flex;
+     margin-right: 60px;   
+    
+ }
+button {
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.buttonlar {
+    color: aliceblue;
+}
+.box{
+    width: 1200px;
+    height: 700px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.take{
+   color: black;
+   font-size: 50px;
+}
+.take2 {
+    color: black;
+    font-size: 50px;
+}
+.take3 {
+    color: black;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.learn {
+
+}
+.more {
+    width:  120px;
+    height: 40px;
+   padding: 5px;
+   background-color: green;
+}
+.pbutton {
+    color: aliceblue;
+   background-color: green;
+}
+.video {
+    width: 300px;
+    height: 180px;
+}
+.how {
+    text-align: center;
+    color: black;
+    font-size: 40px ;
+}
+.minibox{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    padding-left: 10px;
+}
+.web {
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 40px;
+}
+.view {
+    font-size: 30px;
+    color: aliceblue;
+    margin-bottom: 40px;
+
+}
+.lorem {
+   margin-top: 30px;
+   color: aliceblue;
+   margin-bottom: 30px;
+}
